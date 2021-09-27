@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="HelloWorld.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush/>
+    </Page.Background>
+
+    <Grid>
+        <Button x:Name="ClickThis" Content="Click This" Margin="0,720,0,0" VerticalAlignment="Top" Click="ClickThis_Click" RenderTransformOrigin="-4.941,-4.63" Height="63" Width="471" HorizontalAlignment="Stretch" Background="#FF1BE733" FontSize="36" FontWeight="Bold" FontStyle="Italic" BorderBrush="Snow"/>
+        <TextBlock x:Name="Text_Block" Margin="805,0,787,464" Text="T2009A" TextWrapping="NoWrap" SelectionChanged="TextBlock_SelectionChanged" FontSize="48" TextAlignment="Center" Foreground="#FFFDFDFD" Height="74" VerticalAlignment="Bottom" FontFamily="Javanese Text" FontWeight="Bold" FontStyle="Italic"/>
+        <Image x:Name="image" HorizontalAlignment="Center" Height="254" Margin="0,216,0,0" VerticalAlignment="Top" Source="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" RenderTransformOrigin="0.538,0.52"/>
+
+    </Grid>
+</Page>
